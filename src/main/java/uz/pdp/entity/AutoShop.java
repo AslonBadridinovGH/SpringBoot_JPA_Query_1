@@ -13,6 +13,7 @@ import java.util.List;
 @AllArgsConstructor
 @Entity
 public class AutoShop {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private  Integer id;
